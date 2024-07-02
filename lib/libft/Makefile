@@ -6,7 +6,7 @@
 #    By: gudaniel <gudaniel@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/01 10:44:05 by gudaniel          #+#    #+#              #
-#    Updated: 2024/07/01 10:44:21 by gudaniel         ###   ########.fr        #
+#    Updated: 2024/07/01 14:09:20 by gudaniel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,4 +45,4 @@ fclean: clean
 re: fclean all
 
 bonus: $(BONUS_OBJ)
-		@make OBJ="$(BONUS_OBJ)" all
+		@make OBJ="$(BONUS_OBJ)"
